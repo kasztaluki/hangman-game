@@ -1,0 +1,45 @@
+body {
+    background-color: #000000;
+    color: #778899;
+    font-size: 28px;
+}
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#words {
+    width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 48px;
+    min-height: 60px;
+}
+#hangman {
+    float: left;
+    min-height: 280px;
+}
+#alphabeth {
+    float: left;
+}
+.letter {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    border-radius: 20%;
+    cursor: pointer;
+    float: left;
+}
+.letter:hover {
+    background-color: #222222;
+    color: #fff;
+    border: 3px solid #fff;
+}
+.clear {
+    clear: both;
+}
