@@ -1,28 +1,80 @@
 body {
     background-color: #000000;
     color: #778899;
-    font-size: 28px;
+    font-size: 24px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
 }
 #container {
-    width: 1000px;
+    width: 1050px;
     margin-left: auto;
     margin-right: auto;
 
 }
 #words {
-    width: 1000px;
+    width: 1050px;
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
     font-size: 48px;
     min-height: 60px;
 }
+#words > p {
+    hyphens: auto;
+    word-wrap: break-word;
+}
 #hangman {
-    float: left;
+    float: left;    
+    margin: auto;
+    min-width: 50%;
     min-height: 280px;
+    align-items: center;
+}
+.gameWin {
+    text-align: center;
+    font-size: 60px;
+    color: #00C000;
+    border: 3px solid #00C000;
+    border-radius: 10px;
+}
+.win {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    color: #00C000;
+    align-content: center;
+}
+.gameOver {
+    text-align: center;
+    font-size: 60px;
+    color: #FF0000;
+    border: 3px solid #FF0000;
+    border-radius: 10px;
+}
+.lost {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    color: #FF0000;
+    align-content: center;
+}
+.reloadBtn {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: #003300;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px;
 }
 #alphabeth {
     float: left;
+    margin: auto;
+    min-width: 50%;
+    text-align: justify;
+    hyphens: auto;
 }
 .letter {
     width: 30px;
